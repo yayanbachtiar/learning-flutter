@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     var data = "Easylist";
     return MaterialApp(
-        home: Scaffold(appBar: buildAppBar(data), body: ProductManager()));
+        home: Scaffold(appBar: buildAppBar(data), body: ProductManager(data)));
   }
 
   AppBar buildAppBar(String data) {
